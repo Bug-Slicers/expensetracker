@@ -10,7 +10,7 @@ export default function MainAnalysis(props) {
   const [listExpense, setListExpense] = useState([]);
   const [clicked, setClicked] = useState(true);
   {
-    return window.innerWidth > 400 ? (
+    return window.innerWidth > 420 ? (
       <>
         <div className="col-span-2 bg-jp-black">
           {clicked ? (
