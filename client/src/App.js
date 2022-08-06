@@ -89,7 +89,7 @@ function App() {
       backgroundColor: "#1E2329",
       border: "2px solid #FFFFFF",
       color: "#FFFFFF",
-      width: `${window.innerWidth > 400 ? "40%" : "95vw"} `,
+      width: `${window.innerWidth > 420 ? "40%" : "95vw"} `,
       // width: "40%",
     },
   };
