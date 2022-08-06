@@ -1,0 +1,23 @@
+{
+  "name": "expense-tracker-backend",
+  "version": "1.0.0",
+  "description": "backend app for expense-tracker-app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bug Slicers",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.4",
+    "validator": "^13.7.0"
+  }
+}
