@@ -133,7 +133,7 @@ export default function LandingPage(props) {
           <div className="lg:text-6xl lg:py-3 text-2xl p-1">
             The{" "}
             <span className="text-mj-yellow underline">Expense Tracker</span>{" "}
-            that work for you
+            that works for you
           </div>
           <div className="lg:text-2xl py-2 text-xl mt-4">
             Track all your expenses here...

@@ -7,6 +7,9 @@ import bg from "../assets/black-texture.jpg";
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 import instagram from "../assets/instagram.png";
+import Manas from "../assets/Manas.jpeg";
+import Rohit from "../assets/Rohit.jpeg";
+import Jayesh from "../assets/Jayesh.jpeg";
 
 const Developers = () => {
   return (
@@ -36,7 +39,7 @@ const Developers = () => {
         <div className="mx-auto mt-5 lg:mt-0 lg:mx-0 bg-jp-black relative shadow-slate-700 shadow-md rounded-md w-72 h-96">
           <div className="h-2/6 bg-mj-yellow rounded-t-md overflow-hidden"></div>
           <img
-            src={developer}
+            src={Jayesh}
             alt="developer"
             className="absolute w-32 top-16 left-20 border-2 rounded-full bg-black border-black"
           />
@@ -70,7 +73,7 @@ const Developers = () => {
         <div className="mx-auto mt-5 lg:mt-0 lg:mx-0 bg-jp-black relative shadow-slate-700 shadow-md rounded-md w-72 h-96">
           <div className="h-2/6 bg-mj-yellow rounded-t-md overflow-hidden"></div>
           <img
-            src={developer}
+            src={Rohit}
             alt="developer"
             className="absolute w-32 top-16 left-20 border-2 rounded-full bg-black border-black"
           />
@@ -106,7 +109,7 @@ const Developers = () => {
         <div className="mx-auto my-5 lg:mb-0 lg:mt-0 lg:mx-0 bg-jp-black relative shadow-slate-700 shadow-md rounded-md w-72 h-96">
           <div className="h-2/6 bg-mj-yellow rounded-t-md overflow-hidden"></div>
           <img
-            src={developer}
+            src={Manas}
             alt="developer"
             className="absolute w-32 top-16 left-20 border-2 rounded-full bg-black border-black"
           />

@@ -52,7 +52,7 @@ export default function DashBoard(props) {
             <Link to="/">
               <ul className="cursor-pointer">
                 <li className="px-2 mt-2 py-1">
-                  <h1 className="lg:text-3xl text-xl font-bold">
+                  <h1 className="lg:text-3xl text-lg font-bold">
                     Expense Tracker
                   </h1>
                 </li>
@@ -249,7 +249,7 @@ export default function DashBoard(props) {
           </div>
         </div>
 
-        <div className=" lg:block absolute bottom-8 z-50 right-5 lg:bottom-20 lg:left-16 lg:right-0">
+        <div className=" lg:block absolute bottom-14 z-50 right-5 lg:bottom-20 lg:left-16 lg:right-0">
           <button
             onClick={props.openModalExpense}
             className="bg-mj-yellow px-4 py-3 flex rounded-md font-bold duration-300 ease-out hover:scale-110"

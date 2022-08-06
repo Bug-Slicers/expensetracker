@@ -72,7 +72,7 @@ const AddExpense = (props) => {
           <div>
             <input
               className="p-3 px-4 rounded-md mt-6  w-3/4 placeholder-rp-yellow bg-jp-black outline-none text-jp-white"
-              placeholder="what was this expence for ?"
+              placeholder="what was this expense for ?"
               value={expense.desc}
               onChange={(e) => {
                 const tempExpense = { ...expense };

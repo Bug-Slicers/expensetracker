@@ -3,7 +3,7 @@ module.exports.Segregator = (data) => {
     General: 0,
     Fuel: 0,
     Grocery: 0,
-    Entertainment: 0,
+    Fun: 0,
     Shopping: 0,
     Travel: 0,
     Food: 0,
